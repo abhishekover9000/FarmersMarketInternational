@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700|Raleway&subset=latin-ext');
+/*imported ext latin set just in case project is changed over to Spanish and the extra characters needed*/
+
+.primaryColor { color: #28F4D7; }
+.secondaryColor { color: #EF7A65; }
+
+@media only screen and (max-width: 360px) {
+  .col-xs-12: 100%;
+  body {
+    padding-top: 840px;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (max-width: 768) {
+  .col-sm-12: 100%;
+  body {
+    padding-top: 420px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .col-md-12: 100%;
+  .col-md-4: 0.33333333333333333333333333333333333333%;
+  .col-md-6: 0.5%;
+  body {
+    padding-top: 52px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-lg-12: 100%;
+  .col-md-4: 0.33333333333333333333333333333333333333%;
+  .col-md-6: 0.5%;
+  body {
+    padding-top: 52px;
+  }
+}
+
+
+span {
+  align-items: center;ß
+}
+
+
+p, a, label {
+  font-family: 'Raleway', sans-serif;
+  color: #EF7A65;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oxygen', sans-serif;
+  color: #28F4D7;
+}
