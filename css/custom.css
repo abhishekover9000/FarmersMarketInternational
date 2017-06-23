@@ -1,27 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen:700|Raleway&subset=latin-ext');
+
 /*imported ext latin set just in case project is changed over to Spanish and the extra characters needed*/
 
 .primaryColor { color: #28F4D7; }
 .secondaryColor { color: #EF7A65; }
-
-body {
-  background-color: .primaryColor;
-}
+font-family: 'Oxygen', san-serif;
+font-familt: 'Raleway', san-serif;
 
 @media only screen and (max-width: 360px) {
-  padding-top: 420px;
+  .col-xs-12: 100%;
+  #header {
+
+    }
+  .navbar-header {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      bottom: -120px
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  padding-top: 420px;
+  .col-sm-12: 100%;
+  #header {
+
+    }
+  #mission {
+      padding-top: 120px
+      margin-top: 5px;
+    }
+  .navbar-header {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -120px
+  }
+
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-  padding-top: 55px;
+  .col-md-12: 100%;
+  .col-md-4: 0.33333333333333333333333333333333333333%;
+  .col-md-6: 0.5%;
+  #header {
+
+    }
+  #mission {
+      padding-top: 40px;
+      margin-top: 5px;
+    }
+  .navbar-header {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      bottom: -40px
+    }
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-  padding-top: 55px;
+  .col-lg-12: 100%;
+  .col-md-4: 0.33333333333333333333333333333333333333%;
+  .col-md-6: 0.5%;
+  #header {
+
+    }
+  #mission {
+      padding-top: 40px;
+      margin-top: 5px;
+    }
+  .navbar-header {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      bottom: -40px
+    }
+  }
 }
 
 p, a, label {
