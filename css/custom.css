@@ -3,8 +3,10 @@
 
 .primaryColor { color: #28F4D7; }
 .secondaryColor { color: #EF7A65; }
-font-family: 'Oxygen', san-serif;
-font-familt: 'Raleway', san-serif;
+
+.glyphicon {
+  font-size: 75px;
+}
 
 @media only screen and (max-width: 360px) {
   .col-xs-12: 100%;
@@ -23,6 +25,16 @@ font-familt: 'Raleway', san-serif;
     position: absolute;
     left: 0;
     bottom: -5px
+  }
+
+  .afford-left {
+    margin-bottom: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .afford-right {
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -45,14 +57,13 @@ font-familt: 'Raleway', san-serif;
     left: 0;
     bottom: -5px
   }
-  .afford-left {
-
+  .afford-left {ß
     margin-left: 90%;
     text-align: center;
     align-items: center;
   }
   .afford-right {
-
+    padding-top: 5px;
     margin-left: 10%;
     text-align: center;
     align-items: center;
@@ -115,16 +126,4 @@ p, a, label {
 h1, h2, h3, h4 {
   font-family: 'Oxygen', sans-serif;
   color: #28F4D7;
-}
-
-.icon-well {
-  span {
-    padding-left: 50%;
-  }
-  h3 {
-    font-size: 3em;
-  }
-  p {
-    font-size: 1.5em
-  }
 }
