@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,97 +18,88 @@
 
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-fixed-top navbar-inverse static-fixed" id="header">
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container-fluid header">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand secondaryColor" href="/">Farmer's Market International</a>
+
+      <a class="navbar-brand secondColor" href="#">Farmer's Market International</a>
 
     </div>
 
-    <ul class="nav navbar-inverse navbar-nav navbar-right">
-        <li data-toggle="tab"  data-target="#a" class="active"><a href="#join">Our Mission</a></li>
-        <li data-toggle="tab"  data-target="#b" class="active"><a href="#solution">The Solution</a></li>
-        <li data-toggle="tab"  data-target="#c" class="active"><a href="#mission">Join!</a></li>
-    </ul>
-
-    <div class="tab-content">
-      <div class="tab-pane fade in active" id="a"></div>
-      <div class="tab-pane fade in active" id="b"></div>
-      <div class="tab-pane fade in active" id="c"></div>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#mission">Our Mission</a></li>
+        <li class="active"><a href="#solution">The Solution</a></li>
+        <li class="active"><a href="#join">Join!</a></li>
+      </ul>
     </div>
-    <!--  <li class="nav navbar-nav navbar-right">
-      <ul><a class="text-center" href="#join">Join!</a></ul>
-    </li>
-    <li class="nav navbar-nav navbar-right">
-      <ul><a class="text-center" href="#solution">The Solution</a></ul>
-    </li>
-    <li class="nav navbar-nav navbar-right">
-      <ul><a class="text-center" href="#mission">Our Mission</a></ul>
-    </li> -->
-  </nav>
-</div>
+  </div>
+</nav>
 
-<div class="container" id="mission">
-  <br><br><br><br><br><br><br><br><div class="row">
+<div class="container-fluid mission">
+  <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h1 class="text-center">Good Food!, Quality Ingredients, and Better Health for You. That is what we want for YOU!</h1>
+      <div class="jumbotron">
+      <h1 class="text-center"> Food by the Community, For the Community </h1>
         <hr/>
+        <h3 class="text-center"> A Nonrestrictive Open Standard for Farmers Markets Worldwide  </h3>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <p>Farmers markets are important part of the community for economic, social and environmental vitality. Farmers markets serve not only as a way for people to purchase locally grown produce but also as a chance for them to connect with others within their communities.
-        You can get Fresher Fruits and Veggies. The food from your local farmers market is, quite frankly, fresher. Because it was grown locally, there is a good chance that the apple you buy from the farmer was picked a few days ago. This is virtually impossible in a big supermarket.
-        Consumers that value fresh food and a working landscape should support local farmers by buying their products. Locally grown food tastes and looks better. The crops are picked at their peak, and farmstead products like cheeses and are hand-crafted for best flavor. Is that reason enough?<p>
-    </div>
+  </div>
   </div>
   </div>
 </div>
 
-<div class="container" id="icon-well">
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <span style="padding-left:45%;" class="glyphicon glyphicon-grain"></span>
-    <h3 class="text-center"> Wonderful, Healthy Food! </h3>
-    <p class="text-center"> Do you want to eat healthier? </p>
-    <input type="text" name="foods" style="alignment:center; padding-right:5%; padding-left:5%; width:90%">
- </div>
- <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <span style="padding-left:45%;" class="glyphicon glyphicon-envelope"></span>
-    <h3 class="text-center" > Contact Us! </h3>
-    <p class="text-center" > We're not shy, Join up and leave your questions! </p>
-    <input type="text" name="questions" style="padding-right:5%; padding-left:5%; alignment: center; width:90%;">
+<div class="container-fluid icon-well">
+   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 icon-well">
+    <span class="glyphicon glyphicon-envelope" style="padding-left: 50%;"></span>
+    <h3 class="text-center" style="font-size: 3em;"> Market Finder </h3>
+    <p class="text-center" style="font-size: 1.5em;"> Do you want find and access the freshest resources available near you? </p>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <button class="btn text-center btn-lg btn-success form-inline afford-left">Yeah, sure thing</button>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <button class="btn text-center btn-lg btn-primary form-inline afford-right">I can't afford it</button>
+      </div>
   </div>
+
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <span style="padding-left:45%;" class="glyphicon glyphicon-usd"></span>
-    <h3 class="text-center" > Donations </h3>
-    <p class="text-center" > A little goes a long way you know! </p>
-    <input type="text" name="donation" style="padding-right:5%; padding-left:5%; width:90%; alignment: center;">
+    <span class="glyphicon glyphicon-grain" style="padding-left: 50%;"></span>
+    <h3 class="text-center" style="font-size: 3em;"> Community Farms  </h3>
+    <p class="text-center" style="font-size: 1.5em;"> Support local farmers. Better yet, create more local farmers. Help us innovate and grow new crops in our active communities and start new chapters. </p>
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <hr/>
+
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <span class="glyphicon glyphicon-usd" style="padding-left: 50%;"></span>
+    <h3 class="text-center" style="font-size: 3em;"> Food Exchange Protocol </h3>
+    <p class="text-center" style="font-size: 1.5em;"> Play an impact role in establishing certain protocol you deem necessary for your raw nutritional resources to adhere by. </p>
+    <button class="btn btn-lg btn-warning text-center"> Share your 2 cents! </button>
   </div>
 </div>
 
-<div class="container" id="joinform">
+<div class="container-fluid joinform">
   <div class="row"></div>
+  <hr/>
   <div class="form-group">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <label for="name" style="font-size: 1.5em;">Tell us your name:</label>
+      <input type="text" class="form-control" name="name">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <label for="email" style="font-size: 1.5em;">Tell us your email:</label>
+      <input type="text" class="form-control" email="email">
+    </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <label for="comment">Comments, questions? Leave them here:</label>
+      <label for="comment" style="font-size: 1.5em;">Comments, questions? Leave them here:</label>
       <textarea class="form-control" rows="5" id="comment>"></textarea>
     </div>
   </div>
-  <hr/>
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-top:5%;">
-    <label for="name">Tell us your name:</label>
-    <input type="text" class="form-control" name="name">
-  </div>
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="margin-top:5%;">
-    <label for="name">Tell us your email address:</label>
-    <input type="text" class="form-control" name="email">
-  </div>
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:5%;">
-    <button type="submit" class="btn btn-success btn-primary" style="margin-top: 5px;">Join Today!</button>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <button type="submit" class="btn btn-success btn-lg btn-primary center-text" style="margin-top: 5px;">Join Today!</button>
   </div>
 </div>
 
