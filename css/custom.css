@@ -8,6 +8,10 @@
   font-size: 75px;
 }
 
+.open .dropdown-menu{
+  display: block;
+}
+
 @media only screen and (max-width: 360px) {
   .col-xs-12: 100%;
   body {
