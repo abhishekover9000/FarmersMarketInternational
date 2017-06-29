@@ -2,17 +2,12 @@
 <html lang="en">
 <head>
   <title>Farmer's Market International</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <style>
     @import url('https://fonts.googleapis.com/css?family=Oxygen:700|Raleway&subset=latin-ext');
   </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="css/custom.css" />
 
@@ -41,44 +36,38 @@
   </div>
 </nav>
 
-<div class="container-fluid mission">
-  <div class="row">
+<div class="jumbotron">
+  <div class="container-fluid mission">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="jumbotron">
-      <h1 class="text-center primaryColor"> Food by the Community, For the Community </h1>
+      <h1 class="text-center"> Food by the Community, For the Community </h1>
         <hr/>
-        <h3 class="text-center secondaryColor"> A Nonrestrictive Open Standard for Farmers Markets Worldwide  </h3>
+      <h2 class="text-center secondaryColor"> A Nonrestrictive Open Standard for Farmers Markets Worldwide  </h3>
     </div>
-  </div>
-  </div>
   </div>
 </div>
 
 <div class="container-fluid icon-well">
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="padding-bottom:10%;">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     <p class="text-center"><span class="glyphicon larger glyphicon-envelope"></span></p>
     <h3 class="text-center primaryColor" style="font-size: 3em;"> Market Finder </h3>
     <p class="text-center secondaryColor" style="font-size: 1.5em;"> Do you want find and access the freshest resources available near you? </p>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <div class="text-center"><button class="btn btn-lg btn-success afford-left">Yeah, sure thing</button></div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <div class="text-center"><button class="btn btn-lg btn-primary afford-right">I can't afford it</button></div>
+    <div class="btn-group btn-group-justified btn-lg" role="group" aria-label="Justified button group">
+      <a href="#market-yes" class="btn btn-success" role="button">Yeah, sure thing</a>
+      <a href="#market-no" class="btn btn-danger" role="button">I can't afford it</a>
     </div>
   </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="padding-bottom:10%;">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     <p class="text-center"><span class="glyphicon larger glyphicon-grain"></span></p>
     <h3 class="text-center primaryColor" style="font-size: 3em;"> Community Farms  </h3>
     <p class="text-center secondaryColor" style="font-size: 1.5em;"> Support local farmers. Better yet, create more local farmers. Help us innovate and grow new crops in our active communities and start new chapters. </p>
-    <div style="padding-bottom:10%;"></div>
   </div>
 
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     <p class="text-center"><span class="glyphicon larger glyphicon-usd"></span></p>
     <h3 class="text-center primaryColor" style="font-size: 3em;"> Food Exchange Protocol </h3>
     <p class="text-center secondaryColor" style="font-size: 1.5em;"> Play an impact role in establishing certain protocol you deem necessary for your raw nutritional resources to adhere by. </p>
-    <div class="text-center" style="padding-bottom:10%;"><button class="btn btn-lg btn-warning"> Share your 2 cents! </button></div>
+    <div class="text-center"><button class="btn btn-warning"> Share your 2 cents! </button></div>
   </div>
 </div>
 
@@ -97,7 +86,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <label for="comment" class="secondaryColor" style="font-size: 1.5em;">Pick an area and tell us how you can help the cause!</label>
         <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">GO FRESH!
+          <button class="btn btn-primary btn-success dropdown-toggle" type="button" data-toggle="dropdown">GO FRESH!
           <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li><a href="#market">Market Finder</a></li>
@@ -107,14 +96,16 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <textarea class="form-control" rows="5" id="comment" style="margin-top:20%;"></textarea>
+      <textarea class="form-control" rows="5" id="comment" style="margin-top:2%"></textarea>
     </div>
   </div>
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <button type="submit" class="btn btn-success btn-lg btn-primary center-text" style="margin-top: 5px;">Join Today!</button>
+    <button type="submit" class="btn btn-success btn-primary center-text" style="margin-top: 5px;">Join Today!</button>
   </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 <footer>
 
