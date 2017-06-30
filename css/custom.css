@@ -13,13 +13,34 @@
 }
 
 @media only screen and (max-width: 360px) {
-  .col-xs-12: 100%;
   body {
     background-color: #28F4D7;
   }
   .header {
-    padding-bottom: 10px;
-    margin-bottom: 5px;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .jumbotron {
+    margin-top: 0.5em;
+  }
+  .mission {
+    width: 100%;
+  }
+  .jumbotron-fontsize1 {
+    font-size: (5.4*.25)em;
+  }
+  .jumbotron-fontsize2 {
+    font-size: (3.7*.25)em;
+  }
+  .icon-well {
+    width: 90%;
+  }
+  .joinform {
+    width: 90%;
+  }
+  html {
+    font-size: 50%;
+    margin: 0.5em;
   }
   .navbar-header {
     width: 100%;
@@ -28,29 +49,39 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -5px
+    bottom: -10px;
   }
+  .col-xs-12 {
+    width: inherit;
+  }
+  .col-sm-12 { width: inherit;}
+  .margin-custom { margin: 0.5em;}
 
-  .afford-left {
-    margin-bottom: 10%;
-    text-align: center;
-    align-items: center;
-  }
-  .afford-right {
-    text-align: center;
-    align-items: center;
-  }
 }
 
 
 @media only screen and (max-width: 768px) {
-  .col-sm-12: 100%;
   body {
     background-color: #28F4D7;
   }
+  h2 {
+    text-align: left;
+  }
+  .jumbotron {
+    margin-top: 0.5em
+  }
   .header {
-    padding-bottom: 10px;
-    margin-bottom: 5px;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .mission {
+    width: 100%;
+  }
+  .icon-well {
+    width: 75%;
+  }
+  .joinform {
+    width: 75%;
   }
   .navbar-header {
     width: 100%;
@@ -59,67 +90,94 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -5px
+    bottom: -10px;
   }
-  .afford-left {ß
-    margin-left: 90%;
-    text-align: center;
-    align-items: center;
+  html {
+    font-size:75%;
   }
-  .afford-right {
-    padding-top: 5px;
-    margin-left: 10%;
-    text-align: center;
-    align-items: center;
+  button {
+    padding: 0.5em;
   }
-
-  }
+  .col-sm-12 { width: inherit;}
+  .jumbotron-fontsize1 { font-size: (5.4*.25)em;}
+  .jumbotron-fontsize2 { font-size: (3.7*.25)em;}
 }
 
 @media only screen and (max-width: 1024px) {
-  .col-md-12: 100%;
-  .col-md-4: 0.33333333333333333333333333333333333333%;
-  .col-md-6: 0.5%;
   body {
-      background-color: #28F4D7;
-    }
+    background-color: #28F4D7;
+  }
+  .jumbotron {
+    margin-top: 0.5em;
+  }
   .header {
-      padding-bottom: 10px;
-      margin-bottom: 5px;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  .mission {
+    width: 100%;
+  }
+  .icon-well {
+    width: 75%;
+  }
+  .joinform {
+    width: 75%;
   }
   .navbar-header {
-      width: 100%;
-      margin-left: 0px;
-      margin-right: 0px;
-      text-align: center;
-      position: absolute;
-      left: 0;
-      bottom: -40px
-    }
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
   }
+  html {
+    font-size: 125%;
+  }
+  button {
+    padding: 0.5em;
+  }
+  .col-md-12 {width: inherit;}
+  .col-md-4 {width: inherit/3;}
+  .col-md-6 {width: inherit/2;}
+  .jumbotron-fontsize1 { font-size: (5.4*.25)em;}
+  .jumbotron-fontsize2 { font-size: (3.7*.25)em;}
 }
 
 @media only screen and (min-width: 1200px) {
-  .col-lg-12: 100%;
-  .col-md-4: 0.33333333333333333333333333333333333333%;
-  .col-md-6: 0.5%;
   body {
       background-color: #28F4D7;
-    }
-  .header {
-      padding-bottom: 10px;
-      margin-bottom: 5px;
-    }
-  .navbar-header {
-      width: 100%;
-      margin-left: 0px;
-      margin-right: 0px;
-      text-align: center;
-      position: absolute;
-      left: 0;
-      bottom: -40px
-    }
   }
+  .jumbotron {
+    margin-top: 1em;
+  }
+  .header {
+      margin-bottom: 0.5em;
+  }
+  .icon-well {
+    width: 75%;
+  }
+  .joinform {
+    width: 80%;
+  }
+  .navbar-header {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+  }
+  html {
+    font-size: 125%;
+  }
+  .col-md-12 {width: inherit;}
+  .col-md-4 {width: inherit/3;}
+  .col-md-6 {width: inherit/2;}
+  .jumbotron-fontsize1 { font-size: 5.4em;}
+  .jumbotron-fontsize2 { font-size: 3.7em;}
 }
 
 p, a, label {
@@ -129,5 +187,5 @@ p, a, label {
 
 h1, h2, h3, h4 {
   font-family: 'Oxygen', sans-serif;
-  color: #28F4D7;
+  color: black;
 }
