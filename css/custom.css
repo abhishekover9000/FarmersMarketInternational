@@ -18,10 +18,9 @@
   }
   .header {
     width: 100%;
-    margin-bottom: auto;
   }
   .jumbotron {
-    margin-top: 0.5em;
+
   }
   .mission {
     width: 100%;
@@ -32,15 +31,20 @@
   .jumbotron-fontsize2 {
     font-size: (3.7*.25)em;
   }
+  .text-size1 {
+    font-size: (3*.25)em;
+  }
+  .text-size2 {
+    font-size: (1.5*.25)em;
+  }
   .icon-well {
-    width: 90%;
+    width: 92.5%;
   }
   .joinform {
-    width: 90%;
+    width: 92.5%;
   }
   html {
-    font-size: 50%;
-    margin: 0.5em;
+
   }
   .navbar-header {
     width: 100%;
@@ -49,12 +53,11 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -3px;
   }
   .col-xs-12 {
     width: inherit;
   }
-  .col-sm-12 { width: inherit;}
   .margin-custom { margin: 0.5em;}
 
 }
@@ -68,11 +71,10 @@
     text-align: left;
   }
   .jumbotron {
-    margin-top: 0.5em
+
   }
   .header {
     width: 100%;
-    margin-bottom: auto;
   }
   .mission {
     width: 100%;
@@ -90,17 +92,24 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -3px;
   }
   html {
-    font-size:75%;
+
   }
   button {
     padding: 0.5em;
   }
   .col-sm-12 { width: inherit;}
-  .jumbotron-fontsize1 { font-size: (5.4*.25)em;}
-  .jumbotron-fontsize2 { font-size: (3.7*.25)em;}
+  .jumbotron-fontsize1 { font-size: (5.4*.5)em;}
+  .jumbotron-fontsize2 { font-size: (3.7*.5)em;}
+  .text-size1 {
+    font-size: (3*.50)em;
+  }
+  .text-size2 {
+    font-size: (1.5*.50)em;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -108,11 +117,10 @@
     background-color: #28F4D7;
   }
   .jumbotron {
-    margin-top: 0.5em;
+
   }
   .header {
     width: 100%;
-    margin-bottom: 0.5em;
   }
   .mission {
     width: 100%;
@@ -130,10 +138,10 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -3px;
   }
   html {
-    font-size: 125%;
+
   }
   button {
     padding: 0.5em;
@@ -141,8 +149,14 @@
   .col-md-12 {width: inherit;}
   .col-md-4 {width: inherit/3;}
   .col-md-6 {width: inherit/2;}
-  .jumbotron-fontsize1 { font-size: (5.4*.25)em;}
-  .jumbotron-fontsize2 { font-size: (3.7*.25)em;}
+  .jumbotron-fontsize1 { font-size: (5.4*.75)em;}
+  .jumbotron-fontsize2 { font-size: (3.7*.75)em;}
+  .text-size1 {
+    font-size: (3*.75)em;
+  }
+  .text-size2 {
+    font-size: (1.5*.75)em;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -150,10 +164,10 @@
       background-color: #28F4D7;
   }
   .jumbotron {
-    margin-top: 1em;
+
   }
   .header {
-      margin-bottom: 0.5em;
+    width: 100%;
   }
   .icon-well {
     width: 75%;
@@ -168,16 +182,30 @@
     text-align: center;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -3px;
   }
   html {
-    font-size: 125%;
+
   }
-  .col-md-12 {width: inherit;}
-  .col-md-4 {width: inherit/3;}
-  .col-md-6 {width: inherit/2;}
+  .col-lg-12 {width: inherit;}
+  .col-lg-4 {width: inherit/3;}
+  .col-lg-6 {width: inherit/2;}
   .jumbotron-fontsize1 { font-size: 5.4em;}
   .jumbotron-fontsize2 { font-size: 3.7em;}
+  .text-size1 {
+    font-size: 3em;
+  }
+  .text-size2 {
+    font-size: 1.5em;
+  }
+
+}
+
+.text-form textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  width: inherit;
 }
 
 p, a, label {
