@@ -12,90 +12,111 @@
   <link rel="stylesheet" href="css/custom.css" />
 
 </head>
-<body>
-<nav class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container-fluid header">
-    <div class="navbar-header"><a class="navbar-brand" href="#">Farmer's Market International</a></div>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
+<body class="root">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+        <nav class="navbar navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">Farmer's Market International</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse customNav" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li id="clickMission" class="active"><a href="#mission">Our Mission</a></li>
+              <li id="clickSolution"><a href="#solution">The Solution</a></li>
+              <li id="clickJoin" ><a href="#join">Join</a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+    </div>
   </div>
-
-  <div class="collapse navbar-collapse" id="navbar">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#mission">Our Mission</a></li>
-      <li class="active"><a href="#solution">The Solution</a></li>
-      <li class="active"><a href="#join">Join!</a></li>
-    </ul>
+  <a name="mission"> </a>
+  <div class="jumbotron jumbocustom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="jumboBox">
+            <div class="primaryHeadline"> 
+              Community Sourced Food Quality
+            </div>
+            <hr class="designLine"/>
+            <div class="secondaryHeadline secondaryColor"> 
+              Nonrestrictive Open Standard for Local Farmers Markets Worldwide 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
+  
+<div class="container">
+  <a name="solution"> </a>
+  <div class="solutions">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <p class="text-center"><span class="glyphicon glyphicon-pushpin"></span></p>
+      <h3 class="text-center primaryColor"> Market Finder </h3>
+      <p class="text-center "> Do you want find and access the freshest resources available near you? </p>
+      <div class="btn-FMI">
+        <a href="#market-yes" class="btn btn-success btn-FMI" role="button">Yes, tell me more</a>
+        <a href="#market-no" class="btn btn-danger btn-FMI" role="button">I can't afford it</a>
+      </div>
+    </div>
 
-<div class="jumbotron">
-  <div class="margin-custom">
-  <div class="container-fluid margin-custom mission">
+    <div class="col-xs-12 col-sm-12 col-md-12-4 col-lg-4">
+      <p class="text-center"><span class="glyphicon glyphicon-grain"></span></p>
+      <h3 class="text-center primaryColor"> Community Farms  </h3>
+      <p class="text-center"> Support local farmers. Better yet, create more local farmers. Help us innovate and grow new crops in our active communities and start new chapters. </p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      <p class="text-center"><span class="glyphicon glyphicon-transfer"></span></p>
+      <h3 class="text-center primaryColor"> Food Exchange Protocol </h3>
+      <p class="text-center"> Play an impact role in establishing certain protocol you deem necessary for your raw nutritional resources to adhere by. </p>
+      <div class="text-center"><button class="btn btn-warning"> Share your 2 cents! </button></div>
+    </div>
+  </div>
+</div>
+
+<div class="container margin joinform">
+  <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h2 class="text-center jumbotron-fontsize1" style="color: black;"> Food by the Community, For the Community </h1>
-        <hr/>
-      <h2 class="text-center jumbotron-fontsize2 secondaryColor"> A Nonrestrictive Open Standard for Farmers Markets Worldwide  </h3>
+      <div class="joinBox">
+        <h2 class="headline primaryColor"> Make an Impact </h2>
+        <div> With the future of food technology rapidly shifting the paradigm of industry control into the hands of individuals and farmers, Farmers Market International has been launched to spin off eater driven standards by which farmers markets could multiply while still adhering to protocols and safety guidelines. We are currently at our fledgling stage and are looking to build the right collective of people to drive this forward.</div>
+        <div> To join, please fill the form below and we will be in contact promptly.</div>
+      </div>
     </div>
-  </div>
-</div>
-</div>
-
-<div class="margin-custom">
-<div class="container-fluid icon-well">
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <p class="text-center"><span class="glyphicon larger glyphicon-envelope"></span></p>
-    <h3 class="text-center text-size1"> Market Finder </h3>
-    <p class="text-center text-size2 secondaryColor"> Do you want find and access the freshest resources available near you? </p>
-    <div class="btn-group btn-group-justified btn-lg" role="group" aria-label="Justified button group">
-      <a href="#market-yes" class="btn btn-success" role="button">Yes</a>
-      <a href="#market-no" class="btn btn-danger" role="button">No</a>
-    </div>
-  </div>
-
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <p class="text-center"><span class="glyphicon larger glyphicon-grain"></span></p>
-    <h3 class="text-center text-size1"> Community Farms  </h3>
-    <p class="text-center text-size2 secondaryColor"> Support local farmers. Better yet, create more local farmers. Help us innovate and grow new crops in our active communities and start new chapters. </p>
-  </div>
-
-  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <p class="text-center"><span class="glyphicon larger glyphicon-usd"></span></p>
-    <h3 class="text-center text-size1"> Food Exchange Protocol </h3>
-    <p class="text-center text-size2 secondaryColor"> Play an impact role in establishing certain protocol you deem necessary for your raw nutritional resources to adhere by. </p>
-    <div class="text-center"><button class="btn btn-warning"> Share your 2 cents! </button></div>
-  </div>
-</div>
-</div>
-
-<div class="container-fluid margin-custom joinform">
-  <div class="row"></div>
+  </div> 
   <hr/>
   <div class="form-group">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <label for="name" class="secondaryColor">Tell us your name:</label>
+      <label for="name" class="secondaryColor"> Name:</label>
       <input type="text" class="form-control" name="name">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <label for="email" class="secondaryColor">Tell us your email:</label>
+      <label for="email" class="secondaryColor"> Email:</label>
       <input type="text" class="form-control" email="email">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <label for="comment" class="secondaryColor">Pick an area and tell us how you can help the cause!</label>
+      <label for="comment" class="secondaryColor"> Solution you'd like to be a part of</label>
         <div class="dropdown">
-          <button class="btn btn-primary btn-success dropdown-toggle" type="button" data-toggle="dropdown">GO FRESH!
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li><a href="#market">Market Finder</a></li>
-            <li><a href="#farming">Local Farming</a></li>
-            <li><a href="#donations">Donations</a></li>
-          </ul>
+          <select> 
+            <option> Choose a niche </option>
+            <option> Market Accessiblity </option>
+            <option> Community Farms </option>
+            <option> Food Exchange Protocol </option>
+          </select>
         </div>
         <div class="text-form">
+          <label class="secondaryColor"> What you can contribute: </label>
           <textarea class="form-control" rows="5" style="margin-top: 0.5em; margin-bottom: 0.5em;" id="comment"></textarea>
         </div>
       <button type="submit" class="btn btn-success btn-primary center-text">Join Today!</button>

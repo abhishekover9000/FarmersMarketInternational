@@ -1,9 +1,60 @@
 
 /*imported ext latin set just in case project is changed over to Spanish and the extra characters needed*/
 
-.primaryColor { color: #28F4D7; }
+.primaryColor { color: green; }
 .secondaryColor { color: #EF7A65; }
 
+.btn-FMI {
+  text-align: center;
+}
+
+.solutions {
+  height: 50rem;
+  margin-top: 2rem;
+  padding-top: 7rem;
+}
+
+.jumboBox {
+  border: 1px solid white;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 10rem 2rem 0 2rem;
+  padding: 4rem 2rem;
+  width: 100%;
+  color: white;
+}
+
+.jumbocustom {
+  height: 100vh;
+  background: url(../img/main.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: gray;
+  background-blend-mode: multiply;
+
+}
+
+.jumboBox .designLine {
+  width: 70%;
+}
+.jumboBox .primaryHeadline {
+  font-size: 4.20rem;
+  text-align: center;
+}
+
+.jumboBox .secondaryHeadline {
+  font-size: 2.15rem;
+}
+
+.customNav {
+  margin-right: 2rem;
+}
+
+nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
+  background: green;
+  color: white;
+}
 .glyphicon {
   font-size: 75px;
 }
@@ -13,66 +64,27 @@
 }
 
 @media only screen and (max-width: 360px) {
-  body {
-    background-color: #28F4D7;
+  .jumbocustom {
+    height: 80rem;
   }
-  .header {
-    width: 100%;
+  .jumboBox {
+    margin: 10rem 0;
+    padding: 2rem 1rem;
   }
-  .jumbotron {
 
-  }
-  .mission {
-    width: 100%;
-  }
-  .jumbotron-fontsize1 {
-    font-size: (5.4*.25)em;
-  }
-  .jumbotron-fontsize2 {
-    font-size: (3.7*.25)em;
-  }
-  .text-size1 {
-    font-size: (3*.25)em;
-  }
-  .text-size2 {
-    font-size: (1.5*.25)em;
-  }
-  .icon-well {
-    width: 92.5%;
-  }
-  .joinform {
-    width: 92.5%;
-  }
-  html {
-
-  }
-  .navbar-header {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-  }
-  .col-xs-12 {
-    width: inherit;
-  }
-  .margin-custom { margin: 0.5em;}
 
 }
 
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: #28F4D7;
-  }
+  
   h2 {
     text-align: left;
   }
-  .jumbotron {
-
+  .jumbocustom {
+    height: 70rem;
   }
+
   .header {
     width: 100%;
   }
@@ -85,37 +97,17 @@
   .joinform {
     width: 75%;
   }
-  .navbar-header {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-  }
   html {
 
   }
   button {
     padding: 0.5em;
-  }
-  .col-sm-12 { width: inherit;}
-  .jumbotron-fontsize1 { font-size: (5.4*.5)em;}
-  .jumbotron-fontsize2 { font-size: (3.7*.5)em;}
-  .text-size1 {
-    font-size: (3*.50)em;
-  }
-  .text-size2 {
-    font-size: (1.5*.50)em;
   }
 
 }
 
 @media only screen and (max-width: 1024px) {
-  body {
-    background-color: #28F4D7;
-  }
+
   .jumbotron {
 
   }
@@ -131,38 +123,17 @@
   .joinform {
     width: 75%;
   }
-  .navbar-header {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-  }
   html {
 
   }
   button {
     padding: 0.5em;
   }
-  .col-md-12 {width: inherit;}
-  .col-md-4 {width: inherit/3;}
-  .col-md-6 {width: inherit/2;}
-  .jumbotron-fontsize1 { font-size: (5.4*.75)em;}
-  .jumbotron-fontsize2 { font-size: (3.7*.75)em;}
-  .text-size1 {
-    font-size: (3*.75)em;
-  }
-  .text-size2 {
-    font-size: (1.5*.75)em;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
-  body {
-      background-color: #28F4D7;
-  }
+
   .jumbotron {
 
   }
@@ -175,45 +146,12 @@
   .joinform {
     width: 80%;
   }
-  .navbar-header {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-  }
-  html {
-
-  }
-  .col-lg-12 {width: inherit;}
-  .col-lg-4 {width: inherit/3;}
-  .col-lg-6 {width: inherit/2;}
-  .jumbotron-fontsize1 { font-size: 5.4em;}
-  .jumbotron-fontsize2 { font-size: 3.7em;}
-  .text-size1 {
-    font-size: 3em;
-  }
-  .text-size2 {
-    font-size: 1.5em;
-  }
 
 }
-
-.text-form textarea {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  width: inherit;
-}
-
 p, a, label {
   font-family: 'Raleway', sans-serif;
-  color: #EF7A65;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Oxygen', sans-serif;
-  color: black;
 }
