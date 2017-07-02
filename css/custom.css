@@ -27,7 +27,7 @@
 .jumbocustom {
   height: 100vh;
   background: url(../img/main.jpeg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-color: gray;
@@ -65,26 +65,26 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
 
 @media only screen and (max-width: 360px) {
   .jumbocustom {
-    height: 80rem;
+    height: 50rem;
   }
   .jumboBox {
-    margin: 10rem 0;
-    padding: 2rem 1rem;
+    margin: 10rem 10rem 1.5rem 1.5rem;
   }
 
 
 }
 
+@media only screen and (min-width: 361px && max-width: 768px) {
 
-@media only screen and (max-width: 768px) {
-  
   h2 {
     text-align: left;
   }
   .jumbocustom {
-    height: 70rem;
+    height: 35em;
   }
-
+  .jumboBox {
+    margin: 15rem 15rem 2rem 2rem;
+  }
   .header {
     width: 100%;
   }
@@ -106,9 +106,13 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px && max-width: 1024px) {
 
-  .jumbotron {
+  .jumbocustom {
+    height: 35em;
+  }
+  .jumboBox {
+    margin: 20rem 20rem 2.5rem 2.5rem;
 
   }
   .header {
@@ -134,7 +138,11 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
 
 @media only screen and (min-width: 1200px) {
 
-  .jumbotron {
+  .jumbocustom {
+    height: 35em;
+  }
+  .jumboBox {
+    margin: 10rem 15rem 3rem 3rem;
 
   }
   .header {
