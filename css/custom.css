@@ -24,6 +24,13 @@
   color: white;
 }
 
+.nav-tabs >li.active > a, .navbar-nav > li.active > a:focus, .navbar-nav > li.active > a:hover
+  #clickMission, #clickSolution, #clickJoin, .customNav {
+  background-color: green;
+  color: white;
+}
+
+
 .jumbocustom {
 
   background: url(../img/main.jpeg);
@@ -51,13 +58,8 @@
   margin-right: 2rem;
 }
 
-nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>li>a{
+.nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav, .navbar-nav>li>a{
   background: green;
-  color: white;
-}
-
-.active {
-  background-color: green;
   color: white;
 }
 
