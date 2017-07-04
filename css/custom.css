@@ -24,6 +24,13 @@
   color: white;
 }
 
+.nav-tabs >li.active > a, .navbar-nav > li.active > a:focus, .navbar-nav > li.active > a:hover
+  #clickMission, #clickSolution, #clickJoin, .customNav {
+  background-color: green;
+  color: white;
+}
+
+
 .jumbocustom {
 
   background: url(../img/main.jpeg);
@@ -51,13 +58,8 @@
   margin-right: 2rem;
 }
 
-nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>li>a{
+.nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav, .navbar-nav>li>a{
   background: green;
-  color: white;
-}
-
-.active {
-  background-color: green;
   color: white;
 }
 
@@ -70,60 +72,45 @@ nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>
 }
 
 .joinform {
-  .color: green
+  .color: green;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
   .jumbocustom {
     height: 65rem;
+
   }
   .jumboBox {
-    margin: 10rem 0.5rem 0.5rem 0.5rem;
+    margin-top: 5rem 5rem 0.5rem 0.5rem;
+  }
+  .glyphicon {
+    margin-top: 5rem;
+  }
+  .topBottom-spacing {
+
+    margin-bottom: 12.5rem;
+  }
+  .spacing {
+    padding: 2rem;
   }
 
 
 }
 
-@media only screen and (min-width: 361px && max-width: 768px) {
+@media only screen and (min-width: 480px) {
 
   h2 {
     text-align: left;
   }
-  .jumbocustom {
-    height: 50rem;
-  }
-  .jumboBox {
-    margin: 7.7rem 0.5rem 0.5rem 0.5rem;
-  }
-  .header {
-    width: 100%;
-  }
-  .mission {
-    width: 100%;
-  }
-  .icon-well {
-    width: 75%;
-  }
-  .joinform {
-    width: 75%;
-  }
-  html {
+  .jumbotron {
 
   }
-  button {
-    padding: 0.5em;
-  }
-
-}
-
-@media only screen and (min-width: 769px && max-width: 1024px) {
-
   .jumbocustom {
     height: 40rem;
+
   }
   .jumboBox {
-    margin: 6.2rem 6.2rem 3rem 3rem;
-
+    margin:3.5rem 2.5rem 0.5rem 0.5rem;
   }
   .header {
     width: 100%;
@@ -131,12 +118,14 @@ nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>
   .mission {
     width: 100%;
   }
-  .icon-well {
-    width: 75%;
+  .solutions {
+    width: 100%;
   }
   .joinform {
-    width: 75%;
+    width: 100%;
+    color: green;
   }
+
   html {
 
   }
@@ -145,27 +134,89 @@ nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>
   }
 
 }
+  .topBottom-spacing {
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+  }
+  .spacing {
+    padding: 2rem;
+  }
+  .glyphicon {
+    margin-top:5rem;
+  }
+}
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
+
+  .jumbocustom {
+    height: 10rem;
+  }
+  .jumboBox {
+    margin:2.5rem 2.5rem 0.5rem 0.5rem;
+  }
+  .header {
+    width: 100%;
+  }
+  .mission {
+    width: 100%;
+  }
+  .solutions {
+    width: 100%;
+  }
+  .topBottom-spacing {
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+  }
+  .spacing {
+    padding: 2rem;
+  }
+  .glyphicon {
+    margin-top:5rem;
+  }
+
+  html {
+
+  }
+  button {
+    padding: 0.5em;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
 
   .jumbocustom {
     height: 35rem;
   }
   .jumboBox {
-    margin: 5rem 5rem 4.5rem 4.5rem;
+    margin: 2.5rem 2.5rem 0.5rem 0.5rem;
 
   }
   .header {
     width: 100%;
   }
-  .icon-well {
-    width: 75%;
+  .solutions {
+    width: 100%;
   }
-  .joinform {
-    width: 80%;
+  .topBottom-spacing {
+
   }
+  .spacing {
+    padding: 2rem;
+  }
+  .glyphicon {
+    margin-top:5rem;
+  }
+  .joinmargin {
+    margin-top: -15rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
 
 }
+
 p, a, label {
   font-family: 'Raleway', sans-serif;
 }
