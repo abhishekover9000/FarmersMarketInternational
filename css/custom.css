@@ -25,7 +25,11 @@
 }
 
 .jumbocustom {
+<<<<<<< HEAD
   height: 100vh;
+=======
+
+>>>>>>> 4444e3cfce18bb6b3bf8d7c4e7436ca8aa4ab8ae
   background: url(../img/main.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,10 +55,16 @@
   margin-right: 2rem;
 }
 
-nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
+nav, .navbar-header, .navbar .navbar-brand, .icon-bar, .customNav , .navbar-nav>li>a{
   background: green;
   color: white;
 }
+
+.active {
+  background-color: green;
+  color: white;
+}
+
 .glyphicon {
   font-size: 75px;
 }
@@ -63,12 +73,16 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
   display: block;
 }
 
+.joinform {
+  .color: green
+}
+
 @media only screen and (max-width: 360px) {
   .jumbocustom {
-    height: 50rem;
+    height: 65rem;
   }
   .jumboBox {
-    margin: 10rem 10rem 1.5rem 1.5rem;
+    margin: 10rem 0.5rem 0.5rem 0.5rem;
   }
 
 
@@ -80,10 +94,10 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
     text-align: left;
   }
   .jumbocustom {
-    height: 35em;
+    height: 50rem;
   }
   .jumboBox {
-    margin: 15rem 15rem 2rem 2rem;
+    margin: 7.7rem 0.5rem 0.5rem 0.5rem;
   }
   .header {
     width: 100%;
@@ -109,11 +123,11 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
 @media only screen and (min-width: 769px && max-width: 1024px) {
 
   .jumbocustom {
-    height: 35em;
+
+    height: 40rem;
   }
   .jumboBox {
-    margin: 20rem 20rem 2.5rem 2.5rem;
-
+    margin: 6.2rem 6.2rem 3rem 3rem;
   }
   .header {
     width: 100%;
@@ -139,11 +153,10 @@ nav, .navbar-header, .navbar .navbar-brand, .customNav , .navbar-nav>li>a{
 @media only screen and (min-width: 1200px) {
 
   .jumbocustom {
-    height: 35em;
+    height: 35rem;
   }
   .jumboBox {
-    margin: 10rem 15rem 3rem 3rem;
-
+    margin: 5rem 5rem 4.5rem 4.5rem;
   }
   .header {
     width: 100%;
