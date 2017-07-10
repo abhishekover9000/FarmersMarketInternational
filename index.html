@@ -13,6 +13,7 @@
 
 </head>
 <body class="root">
+<script src="js/custom.js" /></script>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
@@ -40,7 +41,7 @@
 
 <a name="mission"> </a>
   <div class="jumbotron jumbocustom">
-    <div class="container text-center">
+    <div class="container-fluid text-center">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div class="jumboBox">
@@ -66,8 +67,8 @@
       <h3 class="text-center primaryColor"> Market Finder </h3>
       <p class="text-center "> Do you want find and access the freshest resources available near you? </p>
       <div class="btn-FMI">
-        <a href="#market-yes" class="btn btn-success btn-FMI" role="button">Yes, tell me more</a>
-        <a href="#market-no" class="btn btn-danger btn-FMI" role="button">I can't afford it</a>
+        <a href="#join" class="btn btn-success btn-FMI" role="button">Yes, tell me more</a>
+        <a href="#join" class="btn btn-danger btn-FMI" role="button">I can't afford it</a>
       </div>
     </div>
 
@@ -83,24 +84,24 @@
       <p class="text-center"><span class="glyphicon glyphicon-transfer"></span></p>
       <h3 class="text-center primaryColor"> Food Exchange Protocol </h3>
       <p class="text-center"> Play an impact role in establishing certain protocol you deem necessary for your raw nutritional resources to adhere by. </p>
-      <div class="text-center space-up"><button class="btn btn-warning"> Share your 2 cents! </button></div>
+      <div class="text-center space-up"><a href="#join" class="btn btn-warning" role="button"> Share your 2 cents! </a></div>
     </div>
   </div>
 </div>
 
 <a name="join"> </a>
   <div class="container joinmargin joinform">
-    <div class="row"></row>
+    <div class="row"></div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="joinBox">
-        <h2 class="headline primaryColor"> Make an Impact </h2>
-        <div> With the future of food technology rapidly shifting the paradigm of industry control into the hands of individuals and farmers, Farmers Market International has been launched to spin off eater driven standards by which farmers markets could multiply while still adhering to protocols and safety guidelines. We are currently at our fledgling stage and are looking to build the right collective of people to drive this forward.</div>
-        <div> To join, please fill the form below and we will be in contact promptly.</div>
+        <h2 class="headline secondaryColor"> Make an Impact </h2>
+        <div class="primaryColor"> With the future of food technology rapidly shifting the paradigm of industry control into the hands of individuals and farmers, Farmers Market International has been launched to spin off eater driven standards by which farmers markets could multiply while still adhering to protocols and safety guidelines. We are currently at our fledgling stage and are looking to build the right collective of people to drive this forward.</div>
+        <hr/>
+        <div class="primaryColor"> To join, please fill the form below and we will be in contact promptly. Also feel free to ask questions, we will answer them as promptly just in case you are having doubts.</div>
       </div>
     </div>
-  </div>
-  <hr/>
-  <div class="form-group">
+    <hr/>
+    <div class="form-group">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <label for="name" class="primaryColor"> Name:</label>
       <input type="text" class="form-control" name="name">
@@ -117,10 +118,11 @@
             <option> Market Accessiblity </option>
             <option> Community Farms </option>
             <option> Food Exchange Protocol </option>
+            <option> Ask Questions! <option>
           </select>
         </div>
         <div class="text-form">
-          <label class="primaryColor"> What you can contribute: </label>
+          <label class="primaryColor"> What you can contribute or how can we answer your questions today: </label>
           <textarea class="form-control" rows="5" style="margin-top: 0.5em; margin-bottom: 0.5em;" id="comment"></textarea>
         </div>
       <button type="submit" class="btn btn-success btn-primary center-text">Join Today!</button>
